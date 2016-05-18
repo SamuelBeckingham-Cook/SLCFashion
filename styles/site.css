@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.collectionItems {
+    display: none;
+    height: 400px;
+}
+
+.collectionItems > img {
+    height: 400px;
+}

@@ -6,11 +6,11 @@
  * Time: 14:14
  */
 
-$dbhost = '10.169.0.93';
-$dbname = 'scsambcu_db';
-$dbuser = 'scsambcu_admin';
-$dbpass = 'catcatmeowmeow';
-$homeURL = 'http://sc.sambc.uk';
+$dbhost = '';
+$dbname = '';
+$dbuser = '';
+$dbpass = '';
+$homeURL = '';
 
 $db = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
 

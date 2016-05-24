@@ -9,7 +9,7 @@ $('.collection').on('click', function() {
     var colItems = $(this).children('.collectionItems');
 
     if (colItems.is(':visible')) {
-        colitems.slideUp
+        //colitems.slideUp
     } else {
         $('.collectionItems').slideUp();
         colItems.slideToggle();
@@ -19,3 +19,9 @@ $('.collection').on('click', function() {
         })
     }
 });
+
+interact('.draggable')
+    .draggable({
+        inertia: true,
+        axis: 'x'
+    });

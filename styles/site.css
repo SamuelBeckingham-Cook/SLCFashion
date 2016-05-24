@@ -1,13 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    text-align: center;
+}
+
+hr {
+    border:none;
+    height: 1px;
+    background-color: black;
+    width: 30%;
+    margin: 10px auto;
 }
 
 .collectionItems {
     display: none;
     height: 400px;
+    padding: 10px 0;
+    background-color: #f9f9f9;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
-.collectionItems > img {
+.draggable > img {
+    display: inline;
     height: 400px;
+    margin: 0 5px;
+}
+
+.collection-header {
+    height: 100px;
+    font-size: 5em;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+
 }
